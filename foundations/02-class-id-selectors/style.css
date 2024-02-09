@@ -1,0 +1,19 @@
+body p {
+    background-color: rgb(239, 163, 191);
+    font-family: 'Verdana', DejaVu Sans, sans-serif;
+}
+
+#lib_1 {
+    font-size: 36px;
+    color: rgb(0, 0, 299);
+}
+
+#lib_2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 200, 15, .5);
+}
+
+.font-big {
+    font-size: 24px;
+}
