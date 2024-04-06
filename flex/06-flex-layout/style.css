@@ -5,10 +5,53 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   width: 600px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 20px;
+}
+
+.left-links > li > a, .right-links > li > a {
+  font-weight: 600;
+  text-decoration: none;
+  list-style-type: none;
+  color: gray;
+}
+
+.content .buttons > button {
+  padding: 10px;
+}
+
+.left-links > li, .right-links > li {
+  font-weight: 600;
+  list-style: none;
 }
 
 button {
